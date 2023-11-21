@@ -1,0 +1,111 @@
+﻿/* Define some styles for the elements with the "edit" and "delete" classes */
+body{
+    margin:0px;
+    padding: 0px;
+}
+.loading{
+    color: red;
+    height: 15px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: beige;
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
+    display: none;
+}
+.dbmsInputs {
+    display: flex;
+    flex-direction: column;
+}
+.mainContainer {
+    margin: 25px 10%;
+}
+h3{
+    margin: 25px 10%;
+}
+.myForm, table {
+    margin: 25px auto;
+    border: 2px solid orange;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+th, td {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.edit{
+    background-color: green;
+    cursor: pointer;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+/* Define some styles for the elements with the "edit" and "delete" classes */
+.delete {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+.inputs{
+    height: 25px;
+    width: auto;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid orange;
+    border-radius: 15px;
+    font-size: 14px;
+}
+.dbmsInputs{
+    height: auto;
+    width: auto;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid orange;
+    border-radius: 15px;
+    font-size: 14px;
+}
+.expiredInput, .accountInput {
+    height: 25px;
+    width: 75px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid orange;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.dataLabel {
+    height: 25px;
+    color: red;
+}
+
+/* Define some styles for the element with the "update" class */
+.update {
+    display: none;
+    height: 35px;
+    width: auto;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 15px;
+    color: white;
+    background-color: red;
+}
+
+.add {
+    height: 35px;
+    width: 75px;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 15px;
+    color: white;
+    font-size: 14px;
+    background-color: green;
+}

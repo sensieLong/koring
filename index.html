@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- Define the document type as HTML -->
+<html lang="en">
+<!-- Start of HTML document, with "en" set as the default language -->
+<head>
+    <!-- Start of the header section -->
+    <meta charset="UTF-8">
+    <!-- Set the character encoding to UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Set the compatibility mode for Internet Explorer to the latest version -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the viewport for the page to the device's width and initial zoom level -->
+    <title>Document</title>
+    <!-- Set the title of the page to "Document" -->
+    <link rel="stylesheet" href="style.css" />
+    <script defer type="text/javascript" src="DBMSMin.js"></script>
+    <!-- End of the header section -->
+</head>
+<!-- End of the header section -->
+<body>
+    <div id="loading" class="loading">Loading...</div>
+    <div id="dbmsLogIn" class="dbmsLogIn">
+        <div class="dbmsInputs">
+            <input id="userAdmin" class="inputs" type="text" placeholder="user">
+            <input id="userAdminPass" class="inputs" type="password" placeholder="enter password">
+            <input class="add" type="button" value="LogIn" onclick="dbmsLogIn()">
+        </div>
+    </div>
+    <div id="mainContainer" class="mainContainer">
+        <!-- Start of the body section -->
+        <form class="myForm" name="myForm">
+            <!-- Start of the form element -->
+            <input type="text" class="inputs" placeholder='new user'>
+            <input type="text" class="inputs" placeholder='password'>
+            <input type="text" class="expiredInput" placeholder='expiredIn'>
+            <select class="inputs">
+                <option>REGULAR</option>
+                <option>PROMO</option>
+                <option>VIP</option>
+            </select>
+            <input id="name" type="text" class="inputs" placeholder='enter name'>
+            <input id="lastName" type="text" class="inputs" placeholder='enter last name'>
+            <!-- Create a text input field with the "todo" class and a placeholder text -->
+            <input class="add" type="button" value="Add User" onclick="addData()" />
+            <!-- Create a button with the "add" and "type" classes and an onclick event handler that calls the addData() function -->
+            <!-- Create a button with the "update" and "type" classes -->
+        </form>
+        <h3>
+            Kapag na accept mo na tapos hindi parin nawala, pwedeng may delay lamang sa internet.
+            Maaaring i reload lamang ang site at mawala na yung dapat ay wala na!.
+        </h3>
+        <!-- End of the form element -->
+        <table>
+            <!-- Start of the table element -->
+            <thead>
+                <!-- Start of the table header section -->
+                <tr>
+                    <!-- Start of the table row -->
+                    <!-- Create a table cell with the text "Todo" -->
+                    <th class="dataLabel">Accept</th>
+                    <!-- Create a table cell with the text "Update" -->
+                    <th class="dataLabel">Reject</th>
+                    <!-- Create a table cell with the text "Delete" -->
+                    <th class="dataLabel">Id</th>
+                    <!-- Create a table cell with the text "Id" -->
+                    <th class="dataLabel">username</th>
+                    <th class="dataLabel">password</th>
+                    <th class="dataLabel">expiredIn</th>
+                    <th class="dataLabel">accountType</th>
+                    <th class="dataLabel">name</th>
+                    <th class="dataLabel">lastName</th>
+                </tr>
+                <!-- End of the table row -->
+            </thead>
+            <!-- End of the table header section -->
+            <tbody></tbody>
+            <!-- Start of the table body section -->
+        </table>
+        <!-- End of the table element -->
+    </div>
+</body>
+</html>
