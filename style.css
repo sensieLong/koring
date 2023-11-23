@@ -63,6 +63,9 @@ th, td {
     border-radius: 15px;
     font-size: 14px;
 }
+.hiddenInputs{
+    display: none;
+}
 .dbmsInputs{
     height: auto;
     width: auto;

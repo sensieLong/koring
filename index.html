@@ -28,20 +28,20 @@
     </div>
     <div id="mainContainer" class="mainContainer">
         <!-- Start of the body section -->
-        <form class="myForm" name="myForm">
+        <form class="myForm hiddenInputs" name="myForm">
             <!-- Start of the form element -->
-            <input type="text" class="inputs" placeholder='new user'>
-            <input type="text" class="inputs" placeholder='password'>
-            <input type="text" class="expiredInput" placeholder='expiredIn'>
-            <select class="inputs">
+            <input type="text" class="inputs hiddenInputs" placeholder='new user'>
+            <input type="text" class="inputs hiddenInputs" placeholder='password'>
+            <input type="text" class="expiredInput hiddenInputs" placeholder='expiredIn'>
+            <select class="inputs hiddenInputs">
                 <option>REGULAR</option>
                 <option>PROMO</option>
                 <option>VIP</option>
             </select>
-            <input id="name" type="text" class="inputs" placeholder='enter name'>
-            <input id="lastName" type="text" class="inputs" placeholder='enter last name'>
+            <input id="name" type="text" class="inputs hiddenInputs" placeholder='enter name'>
+            <input id="lastName" type="text" class="inputs hiddenInputs" placeholder='enter last name'>
             <!-- Create a text input field with the "todo" class and a placeholder text -->
-            <input class="add" type="button" value="Add User" onclick="addData()" />
+            <!-- <input class="add" type="button" value="Add User" onclick="addData()" /> -->
             <!-- Create a button with the "add" and "type" classes and an onclick event handler that calls the addData() function -->
             <!-- Create a button with the "update" and "type" classes -->
         </form>
