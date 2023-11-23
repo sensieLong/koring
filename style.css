@@ -38,7 +38,7 @@ th, td {
     padding-left: 15px;
     padding-right: 15px;
 }
-.data, .id {
+.data,.data2,.data3,.data4,.data5,.data6, .id {
     border-bottom: solid 5px green;
 }
 
