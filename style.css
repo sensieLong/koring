@@ -38,13 +38,17 @@ th, td {
     padding-left: 15px;
     padding-right: 15px;
 }
+.data, .id {
+    border-bottom: solid 5px green;
+}
 
-.edit{
+.accept{
     background-color: green;
     cursor: pointer;
     color: white;
     padding: 3px;
-    border-radius: 5px;
+    border-radius: 15px;
+    height: 50px;
 }
 /* Define some styles for the elements with the "edit" and "delete" classes */
 .delete {
@@ -52,7 +56,8 @@ th, td {
     cursor: pointer;
     color: white;
     padding: 3px;
-    border-radius: 5px;
+    border-radius: 15px;
+    height: 50px;
 }
 .inputs{
     height: 25px;
